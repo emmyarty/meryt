@@ -1,0 +1,32 @@
+{
+  "name": "meryt",
+  "version": "0.6.1",
+  "dependencies": {},
+  "description": "Lightweight and readable client-side JS templating with event handling and useful shorthands.",
+  "main": "dist/meryt.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test"
+  },
+  "engines": {
+    "npm": ">=1.0.0",
+    "node": ">=1"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "template",
+    "render",
+    "javascript",
+    "framework",
+    "client",
+    "CSR"
+  ],
+  "author": "emmyarty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmyarty/meryt"
+  },
+  "license": "MIT",
+  "funding": "https://www.buymeacoffee.com/emmyarty"
+}
