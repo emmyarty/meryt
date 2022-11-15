@@ -77,7 +77,7 @@ const food = ['halloumi', 'lasagne', 'lahmacun']
 // Generate the original example element, but also pop-up a window alert containing the text value.
 const template = $._('.container', [
     $.h1('Here are some of the world\'s tastiest foods. Fight me.')
-    ...food.map(item => $.p('.text-red', [ 'Hello World' ]))
+    ...food.map(item => $.p('.text-red', [ item ]))
 ])
 const targetElement = document.querySelector('body')
 $.MOUNT ( template, targetElement )
